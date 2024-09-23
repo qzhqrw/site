@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color:white;
+    padding:30px;
+}
+.headerbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.e{
+    display: flex;
+    flex-direction: row; 
+}
+.btn1{
+    background-color: hwb(0 20% 79% / 0.795);
+    border: solid white 1px;
+    color:white;
+    width:150px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.btn2{
+    background-color: rgba(46, 86, 230, 0.795);
+    color:white;
+    height: 30px;
+    width:90px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.nav{
+    display: flex;
+    gap: 60px;
+}
+.searching{
+    background-color:rgba(179, 174, 213, 0.755);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    flex-direction: column;
+}
+.search{
+    width:700px;
+    height: 60px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: x-large;
+}
+.searchbutn{
+    position: relative;
+    right: 30px;
+    background-color: white;
+    border: none;
+    font-size: larger;
+}
+.how{
+    font-size:90px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 40px;
+    max-width: 1200px;
+    margin:auto;
+    
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    width: 470px;
+    height: 300px;
+    font-size: x-large;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+    text-align: left;
+    
+}
+.image img{
+    width:80px ;
+    height:80px ;
+    margin:-5px;
+}
+.box h2{
+    margin:15px ;
+    font-size: 1,5em;
+}
+.box p{
+    margin:15px ;
+    font-size: 1em;
+}
+.icon button{
+    color:blue ;
+    border: none;
+    background-color: white;
+    margin:15px;
+}
+footer{
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+    padding:40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+footer .footercontainer{
+    display: flex;
+    justify-content: space-around;
+    max-width:1200px ;
+    margin:auto;
+}
+footer .section{
+    flex: 1;
+    margin:20px
+}
+footer h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color:white;
+}
+footer ul{
+    list-style: none;
+    padding:0;
+}
+footer ul li{
+    margin-bottom: 10px;
+}
+.section6{
+    display: flex;
+    flex-direction: column;
+}
